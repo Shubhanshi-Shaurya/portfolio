@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="assets/icon.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- header -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+
+        <nav class="navbar">
+            <a href="#home" style="--i:1;" class="active">Home</a>
+            <a href="#about" style="--i:2;">About</a>
+            <a href="#skills" style="--i:3;">Skills</a>
+            <a href="#portfolio" style="--i:4;">Portfolio</a>
+            <a href="#contact" style="--i:5;">Contact</a>
+        </nav>
+    </header>
+
+    <!-- home section -->
+    <section class="home" id="home">
+        <div class="home-sci">
+            <a href="#" id="email-link"><i class='bx bxl-gmail'></i></a>
+            <a href="https://www.linkedin.com/in/shubhanshi-shaurya-413611321/"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/Shubhanshi-Shaurya"><i class='bx bxl-github'></i></a>
+        </div>
+        <div class="home-content">
+            <h1>Hi, I'm Shubhanshi Shaurya</h1>
+            <h3>AI/ML Engineer</h3>
+            <p>Computer Science student specializing in AI & ML with a passion for building intelligent, data-driven
+                solutions. Proficient in Python, machine learning fundamentals, and problem-solving, with hands-on
+                experience developing AI/ML projects and exploring modern technologies. Enthusiastic about continuous
+                learning, innovation, and applying technical skills to solve real-world problems.</p>
+            <a href="assets/resume.pdf" target="_blank" rel="noopener noreferrer" class="btn">Resume</a>
+        </div>
+
+        <div class="home-img">
+            <div class="glowing-circle">
+                <span></span>
+                <span></span>
+                <div class="image">
+                    <img src="assets/person.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>AI/ML & Full-Stack Developer</h3>
+            <p>Passionate Computer Science student and AI engineer specializing in building practical machine learning
+                solutions. Experienced in Machine Learning, developing Retrieval-Augmented Generation (RAG) pipelines,
+                deep learning computer vision classifiers, and predictive analytics platforms backed by scalable
+                microservices.</p>
+            <a href="#portfolio" class="btn">View Projects</a>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-container">
+            <div class="skills-box">
+                <i class='bx bx-terminal'></i>
+                <h3>Programming Languages</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>C</li>
+                </ul>
+            </div>
+            <div class="skills-box">
+                <i class='bx bx-brain'></i>
+                <h3>AI & Machine Learning</h3>
+                <p>Python, TensorFlow, Scikit-Learn, XGBoost, LangChain, ChromaDB, RAG Pipelines, Transfer
+                    Learning, Pandas .</p>
+            </div>
+            <div class="skills-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Full-Stack & APIs</h3>
+                <p>FastAPI, Flask, REST APIs, HTML5, CSS3, JavaScript.</p>
+            </div>
+            <div class="skills-box">
+                <i class='bx bx-data'></i>
+                <h3>Databases & Cloud</h3>
+                <p>PostgreSQL, MySQL, SQLite, Supabase, Git/GitHub, Docker, Streamlit.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <div class="portfolio-layer">
+                    <h4>RAG Document Q&A</h4>
+                    <p>Real-time PDF question-answering system using FastAPI, LangChain, ChromaDB, and React.</p>
+                    <a href="https://github.com/Shubhanshi-Shaurya/PDF-qna-chatbot"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <div class="portfolio-layer">
+                    <h4>AI Farming Assistant</h4>
+                    <p>Precision agriculture engine integrating XGBoost yield prediction, weather telemetry, and plant
+                        disease classification.</p>
+                    <a href="https://github.com/Shubhanshi-Shaurya/ai-farming-assistant"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <div class="portfolio-layer">
+                    <h4>Refinery Soft Sensor</h4>
+                    <p>Machine learning predictive soft sensor for real-time RON estimation using ensemble regressors.
+                    </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <div class="portfolio-layer">
+                    <h4>AI Career Copilot</h4>
+                    <p>An AI-powered career assistant that helps students and job seekers analyze their skills, identify
+                        skill gaps, discover suitable career paths, improve resumes, analyze job descriptions, and
+                        prepare for interviews.</p>
+                    <a href="https://github.com/Shubhanshi-Shaurya/ai-career-copilot"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Let's Connect</h3>
+                <p>Feel free to reach out directly via email, check out my code repositories, or connect across my
+                    professional networks:</p>
+
+                <div class="contact-links">
+                    <a href="mailto:shubhanshishaurya2006@gmail.com" class="contact-item" target="_blank">
+                        <i class='bx bxl-gmail'></i>
+                        <span>shubhanshishaurya2006@gmail.com</span>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/shubhanshi-shaurya-413611321/" class="contact-item"
+                        target="_blank">
+                        <i class='bx bxl-linkedin'></i>
+                        <span>LinkedIn Profile</span>
+                    </a>
+
+                    <a href="https://github.com/Shubhanshi-Shaurya" class="contact-item" target="_blank">
+                        <i class='bx bxl-github'></i>
+                        <span>GitHub Profile</span>
+                    </a>
+
+                    <a href="https://leetcode.com/u/Shubhanshi_Shaurya/" class="contact-item" target="_blank">
+                        <i class='bx bx-code-curly'></i>
+                        <span>LeetCode Profile</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Message Form -->
+            <form action="https://formspree.io/f/xaeyjkzn" method="POST" id="contact-form">
+                <div class="input-box">
+                    <input type="text" name="name" placeholder="Full Name" required>
+                    <input type="email" name="email" placeholder="Email Address" required>
+                </div>
+                <div class="input-box">
+                    <input type="number" name="phone" placeholder="Mobile Number">
+                    <input type="text" name="subject" placeholder="Email Subject">
+                </div>
+                <textarea name="message" cols="30" rows="8" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn" id="contact-btn">Send Message</button>
+                <p id="form-status" style="margin-top: 15px; font-size: 14px; display: none;"></p>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>&copy; 2026 Shubhanshi Shaurya. All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
