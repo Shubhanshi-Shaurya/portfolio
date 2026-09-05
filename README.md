@@ -55,7 +55,7 @@ Navigate to the project folder and open `index.html` in your browser.
 
 ##  Live Portfolio
 
-🔗 **Portfolio:** [https://shubhanshi-shaurya.github.io/portfolio/]{https://shubhanshi-shaurya.github.io/portfolio/}
+🔗 **Portfolio:** [Portfolio](https://shubhanshi-shaurya.github.io/portfolio/)
 
 ---
 
